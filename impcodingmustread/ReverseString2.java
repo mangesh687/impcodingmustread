@@ -13,6 +13,9 @@ public class ReverseString2 {
 			right--;
 		}
 		System.out.println(ch);
+//		Explanation: This solution manually swaps the characters of the string from the start and
+//		end, moving towards the center, effectively reversing the string without using any built-in
+//		functions.
 	}
 
 }
