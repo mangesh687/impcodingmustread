@@ -46,7 +46,10 @@ public class Arrays_DSA {
        //Convert to List:
        List<Integer> list=Arrays.asList(myArray3);
        System.out.println(list);
- 
+       //print Array
+       System.out.println(Arrays.toString(myArray3));
+      //multi-dimensinal array
+       int[][] matrix=new int[3][3];
 	}
 
 }
