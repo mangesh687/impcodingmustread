@@ -168,7 +168,7 @@ boolean all=list5.stream().allMatch(x->x.length()>3);
 System.out.println(all);//true
 //find first elemts satisfing condition 
 Optional<String> first=list5.stream().filter(x->x.startsWith("A")).findFirst();
-System.out.println(first);
+System.out.println(first);//Optional[APPLE]
 
 
 
